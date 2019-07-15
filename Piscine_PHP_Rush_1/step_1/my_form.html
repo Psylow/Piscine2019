@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my_form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../step_2/my_style.css">
+	<script type="text/javascript" src="../step_3/my_script.js"></script>
+</head>
+<body>
+
+
+<div id="formulaire">
+	<h1 id="titre" > Notre formulaire : </h1>
+<div class="sexe">
+<label>Sexe :</label>
+</br>
+<label> Homme
+	<input type="radio" name="sexe">
+</label>
+</br>
+<label> Femme
+<input type="radio" name="sexe">
+</br>
+</label>
+<label> Autre <input type="radio" name="sexe"></label>
+</br>
+</div>
+</br>
+
+<div class="civil">
+	<label>Civilité :</label>
+	<select>
+		<option>M.</option>
+		<option>Mme.</option>
+	</select>
+</div>
+
+</br>
+
+<div class="nom">
+<label>Nom :</label>
+	<input type="text" name="nom" placeholder="Entrez vos nom">
+</div>
+<br>
+<div class="email">
+ <label>E-mail :</label>
+ <input type="email" name="email" placeholder="Entrez votre email">
+</div>
+<br>
+<div class="telephone">
+	<label>Téléphone : </label>
+	<input type="tel" name="nombre" placeholder="Entrez vos 06">
+	</div>
+	<br>
+<div class="website">
+	<label>Site perso :</label>
+	<input type="url" placeholder="website">
+</div>
+<br>
+<div class="birthday">
+	<label>Date de naissance :</label>
+	<input type="date" name="date" placeholder="dd/mm/yyyy">
+</div>
+<br>
+<div class="hobbie">
+	<label>Hobbies :</label>
+	</br>
+	<label>Jeux Vidéo
+	<input type="checkbox" name="check" value="Jeux Vidéo"></label>
+	</br>
+	<label>Cinéma
+	<input type="checkbox" name="check" value="Cinema"></label>
+	</br>
+	<label>Lecture
+	<input type="checkbox" name="check" value="Lecture"></label>
+	</br>
+	<label>Sport
+	<input type="checkbox" name="check" value="Sport"></label>
+	</br>
+	<label>Informatique
+	<input type="checkbox" name="check" value="Informatique"></label>
+</div>
+<br>
+<div class="token">
+	<input type="hidden" name="token" id="website" placeholder="my first website">
+</div>
+<br>
+<div class="button">
+	<input type="submit" name="envoie" onclick="My_function()" value="Validation">
+</div>
+<br>
+</div>
+
+
+</body>
+</html>

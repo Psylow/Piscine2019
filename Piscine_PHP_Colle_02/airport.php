@@ -1,0 +1,92 @@
+<?php
+
+function display($string, $i)
+{
+	$text = $string;
+	while($i != 0)
+	{
+		echo substr($text, 0, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 1, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 2, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 3, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 4, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 5, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 6, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 7, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 8, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 9, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 10, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 11, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 12, 30) . "\n";
+	usleep(500000);
+		echo substr($text, 13, 30);
+		echo substr($string, 0, 1) . "\n";
+	usleep(500000);
+		echo substr($text, 14, 30);
+		echo substr($string, 0, 2) . "\n";
+	usleep(500000);
+		echo substr($text, 15, 30);
+		echo substr($string, 0, 3) . "\n";
+	usleep(500000);
+		echo substr($text, 15, 30);
+		echo substr($string, 0, 4) . "\n";
+	usleep(500000);
+		echo substr($text, 16, 30);
+		echo substr($string, 0, 5) . "\n";
+	usleep(500000);
+		echo substr($text, 17, 30);
+		echo substr($string, 0, 6) . "\n";
+	usleep(500000);
+		echo substr($text, 18, 30);
+		echo substr($string, 0, 7) . "\n";
+	usleep(500000);
+		echo substr($text, 19, 30);
+		echo substr($string, 0, 8) . "\n";
+	usleep(500000);
+		echo substr($text, 20, 30);
+		echo substr($string, 0, 9) . "\n";
+	usleep(500000);
+		echo substr($text, 21, 30);
+		echo substr($string, 0, 10) . "\n";
+	usleep(500000);
+		echo substr($text, 22, 30);
+		echo substr($string, 0, 11) . "\n";
+	usleep(500000);
+		echo substr($text, 23, 30);
+		echo substr($string, 0, 12) . "\n";
+	usleep(500000);
+		echo substr($text, 24, 30);
+		echo substr($string, 0, 13) . "\n";
+	usleep(500000);
+		echo substr($text, 25, 30);
+		echo substr($string, 0, 14) . "\n";
+	usleep(500000);
+		echo substr($text, 26, 30);
+		echo substr($string, 0, 15) . "\n";
+	usleep(500000);
+		echo substr($text, 27, 30);
+		echo substr($string, 0, 16) . "\n";
+	usleep(500000);
+		echo substr($text, 28, 30);
+		echo substr($string, 0, 17) . "\n";
+	usleep(500000);
+		echo substr($text, 29, 30);
+		echo substr($string, 0, 18) . "\n";
+	usleep(500000);
+		echo substr($text, 30, 30);
+		echo substr($string, 0, 19) . "\n";
+	}
+}
+display("Le but de notre vie est d'être heureux.", 2);
